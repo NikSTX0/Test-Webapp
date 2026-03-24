@@ -146,7 +146,7 @@ assessment_questions = {
 # NUTZER SPEICHERN / LADEN  (als JSON-Datei)
 # ─────────────────────────────────────────────────────────────────
 
-USERS_FILE = "users.json"
+USERS_FILE = "/data/users.json"
 
 def load_users():
     if not os.path.exists(USERS_FILE):
